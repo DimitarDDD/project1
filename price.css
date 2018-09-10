@@ -1,0 +1,41 @@
+html,  
+body {
+	height: 100%;
+} 
+  
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);  
+   color: black; 
+  text-align: center;   
+  font-size:30px
+} 
+.test { 
+  height:100%;
+}  
+
+.bg-img {
+            margin-top:50px;
+            background-image: url('images/calculating-price.jpg');
+            background-size: cover;
+            background-position:relative;
+            background-repeat: no-repeat;
+            height: 590px;
+}
+
+
+
+.navbar-inverse {
+            font-size: 14px;
+            background-color: #525050
+}
+
+.logoFront {
+            font-family: "Song Myung , serif;sons-sarif";
+
+}
+    
+.container-fluid.p-0{ padding: 0;
+        
+} 

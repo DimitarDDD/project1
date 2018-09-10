@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <link rel="stylesheet" href="stylecontacts.css" type="text/css" />
+    <title>Document</title>
+    <style>
+        #map {
+            
+            margin-top:5px;
+            min-width: 300px;
+            width: 50%;
+            min-height: 250px;
+            height: 80%;
+            border: 1px solid blue;
+            
+        }
+
+    
+        
+
+        .navbar-inverse { 
+            font-size:14px;
+            background-color: #525050
+        }
+
+        .logoFront {
+            font-family: "Song Myung , serif;sons-sarif";
+
+        }
+
+  
+
+    </style>
+</head>
+
+<body>
+    <div class="bg-img"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="nav navbar-header">
+                <a href="#"><img src="logo.svg" alt="log" width="80px"></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+            </div>
+            <ul id="navbarCollapse" class="nav collapse navbar-collapse navbar-nav navbar-right">
+                <li><a href="project-1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="machines.html">Machines</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="pricelist.html">Price List</a></li> 
+                <li><a href="requirements.html">Design</a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+    <div class="container">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<header class="ccheader">
+    <h1>Contact us</h1> 
+    <font size="3">Имате идеи за дизайн и реклама, но не сте сигурни как да ги реализирате? Искате да знаете как да подготвите файл за печат? Или търсите съвет от експерт и вдъхновение? Дошли сте на правилното място използвайте данните ни за контакт. 
+        Адрес: 6100 Казанлък ул. "Цар Освободител" 40 
+        Имейл: luxprint@mail.bg; luxprint@abv.bg | Телефон: 0878 23 93 65 </font>
+</header>
+<div class="wrapper">
+    <form method="post" action="" class="ccform">
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"></span>
+        <input class="ccformfield" type="text" placeholder="Full Name" required>
+    </div>
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"></span>
+        <input class="ccformfield" type="text" placeholder="Email" required>
+    </div>
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"></span>
+        <input class="ccformfield" type="text" placeholder="Phone">
+    </div>
+     <div class="ccfield-prepend">
+        <span class="ccform-addon"></span>
+        <input class="ccformfield" type="text" placeholder="Subject" required>
+    </div>
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"></span>
+        <textarea class="ccformfield" name="comments" rows="8" placeholder="Message" required></textarea>
+    </div>
+    <div class="ccfield-prepend">
+        <input class="ccbtn" type="submit" value="Submit">
+    </div>
+    </form>
+</div>
+<form action="mailto:dimitardobriko77@gmail.com.com" method="post" enctype="text/plain">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div id="map"class="col-sm-6 col-sm-offset-3"></div>
+
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="map.js"></script> 
+    <script src='contacts.js' type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+</body>
+
+
+
+</html>
