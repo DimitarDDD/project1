@@ -1,19 +1,22 @@
 html,  
 body {
-	height: 100%;
+
 } 
-  
-.element {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);  
-   color: black; 
-  text-align: center;   
-  font-size:30px
-} 
-.test { 
-  height:100%;
+.container-fluid { 
+padding-left:1px; 
+padding-right:1px;
+    
 }  
+.element {
+  position:relative;
+  color: black; 
+  font-size:30px;
+  text-align:center; 
+  padding-left:40px; 
+  padding-right:40px;
+ 
+} 
+
 
 .bg-img {
             margin-top:50px;
@@ -21,7 +24,9 @@ body {
             background-size: cover;
             background-position:relative;
             background-repeat: no-repeat;
-            height: 590px;
+            min-height:100vh;
+            max-width:100vw; 
+            padding-top: 300px;
 }
 
 
@@ -36,6 +41,4 @@ body {
 
 }
     
-.container-fluid.p-0{ padding: 0;
         
-} 

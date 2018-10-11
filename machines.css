@@ -1,44 +1,100 @@
+   .bg-img {
+            margin-top: 33px;
+            background: url('images/machine-7.jpg');
+            background-size: cover;
+            background-position:center center;
+            background-repeat:   no-repeat; 
+            height:285px;
+        }
+
+        .navbar-inverse { 
+            font-size:14px;
+            background-color: #525050
+        }
+
+        .logoFront {
+            font-family: "Song Myung , serif;sons-sarif";
+
+        }
+
+
+
+.container { 
+ width:100vw;
+}
+
 h1 {  
  font-size:25px;     
  color: black; 
- text-align: center;
+ text-align: center;  
+ font-family: inherit;
+ font-weight: 500;
+ line-height: 1.1;
+ color: inherit;
+ margin: .67em 0;
+ font-size: 2em;
+box-sizing: border-box;
 }
+
+.p { 
+
+}
+
+
+
 h2 {  
  font-size:25px;     
-  color: black;  
-  text-align: center;
+ color: black;  
+ text-align: center;
 }
 h3 {  
  font-size:25px;     
-  color: black; 
-  text-align: center;
+ color: black; 
+ text-align: center; 
 }
 h4 {  
  font-size:25px;     
-    color: black; 
-    text-align: center;
+ color: black; 
+ text-align: center;
 } 
 h5 {  
  font-size:25px;     
-   color: black; 
+ color: black; 
  text-align: center;  
 }
 h6 {  
  font-size:25px;     
-   color: black; 
+ color: black; 
  text-align: center;  
 } 
-h7{  
- font-size:25px;     
-  color: black   
-}
-h8 {  
- font-size:25px;     
+#typop{  
+  font-size:25px;     
   color: black; 
-  text-align: center;
+  text-align: center; 
 } 
+#heid {  
+ font-size:25px;     
+ color: black; 
+ text-align: center; 
+
+}
+
 h9 {  
  font-size:25px;     
-  color: black; 
-  text-align: center;
+ color: black; 
+ text-align: center;
+} 
+
+#xer95 {
+padding-top:80px; 
+}
+#mut1 {
+padding-top:20px;
+}
+#val1 {
+padding-top:40px;
+} 
+#xer1 {  
+ width:600px;  
+ height:250px;
 }
