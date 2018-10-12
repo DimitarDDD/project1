@@ -8,7 +8,7 @@ Used a CSS to size  the image on the every page. Used opacity for some of the pa
 Logo was sized as well to fit in  the navbar.  
 Carousel effect was used for products page to present the images. 
 In contact page is the contact form with a google maps location marker.  
-The navbar is responsive (colapsable)and stays on top with a logo inside. 
+The navbar is responsive (colapsable)and stays on top with a logo inside and stays with the same background color with the same logo in all of the pages.
 Every page have got a different background image and all of them are responsive to a diferrent screen sizes.  
 
 Technologies
