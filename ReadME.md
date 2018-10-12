@@ -1,14 +1,14 @@
 Graph-project
 Company website - Stream 1 Project
 
-This is a website focused on car market in norway in last ten years (2007-2017). 
+This website is intended for users  to gain information and be potential clients of the company.  
 
 User Experience
-This website is intended for users  to gain information and be potential clients of the company.  
 Used a CSS to size  the image on the every page. Used opacity for some of the pages the text to be more readable. 
 Logo was sized as well to fit in  the navbar.  
 Carousel effect was used for products page to present the images. 
-In contact page is the contact form with a google maps location marker. 
+In contact page is the contact form with a google maps location marker.  
+The navbar is responsive and stays on top. On a small screens the navbar is collapsable.
 
 Technologies
 JavaScript
@@ -18,7 +18,7 @@ bootstrap
 Cloud 9 - Used to code the project 
 uicookies.com-used for the contact form
 Development Process
-Uploading the csv file was done first, then the graphs with the styling added after. As the styling was progressing, and after it was mostly finished, there were some graphs issues  that needed to be made.
+Home page was the first one made, then the products pae, machine page, about page and so on.
 Functionality:
 Needs to have a responsive design forusing on mobile first design. This has been accomplished using Bootstrap.
 
@@ -45,4 +45,4 @@ Media:
 All of the images and the logo is taken from the official website of the printing office. 
 
 Acknowledgments:
-For the reviews, I followed the tutorials in the lms however, the graphs was significantly modified to fit my project.
+I followed the tutorials in the lms however, the graphs was significantly modified to fit my project.
