@@ -7,6 +7,52 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
     <title>Document</title> 
+    <script type='text/javascript' src='jquery.min.js'></script>
+    <script type='text/javascript'> 
+    var arrLang = { 
+    'en' : { 
+        'Home': 'Home',
+        'About': 'About',
+        'Products ': 'Products',
+        'Price List' : 'Price List', 
+        'Machines ' : 'Machines',
+        'Contact' : 'Contact',
+        'Designe' : 'Design' 
+        
+    },
+    'en' : {  'We will realize your idea from the graphics program to the finished advertising product. We save you time, nerves and money by choosing us, not wading between advertisements houses and printing houses. IF YOU DECIDE YOU TO SEND A READY FILE, PLEASE READ THE REQUIREMENTS: * Text in the file to be curved * No Styles and Effects * Black Text is 100% Black (The exception is where the black text is The black is set composite: composed of C 30%, M 30%, Y 30%, K 100%, WARM BLACK - C 0%, M 30%, Y 30%, K 100% Y 30%, K 100% or COOL BLACK - C 60%, M 0%, Y 0%, K 100% Never used: C 100%, M 100%, Y 100%, B 100% This is a color used only for special registers such as: blades, environments, and other objects located outside the circumscribed format of the product, and in the circumscribed size of the product, they are removed automatically. * Print photos are submitted at 300 dpi * The file is in PDF format The ICC profile used when creating the document should be ISOcoated_V2_eci - or CoatedFogra 39 * The PDF file must be created using any of the following PDF Print Profiles - PDF / X-1a, PDF / X-3, PDF / X-4 * PDF the file must contain the specified TRIM / BLEED BOX * Additional effects after printing, such as partial UV-lacquer, HotFoil (hot stamping), Embossing, must be added as PANTONE in the print file rather than as a separate file. The same should NOT hoe. (OVERPRINT ON). The file must be vector and text in curves. The printer reserves the right to refuse to accept materials that do not meet the technical specifications. The printer reserves the right to make changes to the files if necessary to achieve a higher quality of production, informing the customer accordingly. The customer is obliged to pay the costs of modifying the materials that are not in compliance with the technical requirements.' 
+    }, 
+    
+    'bg' : {
+         'Home': 'Начало',
+        'About': 'За нас',
+        'Products ': 'Продукти',
+        'Price List' : 'Ценова Листа', 
+        'Machines ' : 'Машини',
+        'Contact' : 'Контанти',
+        'Designe' : 'Дизайн' 
+    },   
+    
+    'bg' : { 'Ще реализираме вашата идея от графичната програма до готовия рекламен продукт. Ние Ви спестяваме време, нерви и пари, като ни избирате, а не преплитате между реклами къщи и печатници. Ако сте решили да изпратите готов файл, моля ПРОЧЕТЕТЕ ИЗИСКВАНИЯТА: * Текст в файла да бъде извит * Не стилове и ефекти * Черният текст е 100% черен (Изключение е мястото, където черният текст е Черно е настроен композитен: съставен от С 30%, М 30%, Y 30%, К 100%, ЖЪЛТО ЧЕРНО - С 0%, М 30%, Y 30%, К 100% Y 30%, К 100% или COOL BLACK - C 60% , M 0%, Y 0%, K 100% Никога не се използва: C 100%, M 100%, Y 100%, B 100% Това е цвят, използван само за специални регистри като: остриета, среди и други обекти които са извън обработения формат на продукта и в ограничен размер на продукта, те се отстраняват автоматично. * Снимките се отпечатват при 300 dpi * Файлът е в PDF формат ICC профилът, използван при създаването на документа, трябва да бъде ISOcoated_V2_eci или CoatedFogra 39 * PDF файлът трябва да бъде създаден с помощта на следните PDF Печат Профили - PDF / X-1a, PDF / X-3, PDF / X-4 * PDF файлът трябва да съдържа посочените TRIM / BLEED BOX * след принц като "частичен UV-лак", "HotFoil" (горещо щамповане), "Релеф", трябва да се добавят като PANTONE в печатащия файл, а не като отделен файл. Същото не би трябвало. (ВКЛЮЧЕНО ВКЛЮЧЕНО). Файлът трябва да бъде вектор и текст в криви. Принтерът си запазва правото да откаже да приема материали, които не отговарят на техническите спецификации. Принтерът си запазва правото да прави промени в файловете, ако това е необходимо, за да се постигне по-високо качество на производството, като се информира съответно клиентът. Клиентът е длъжен да заплати разходите за модифициране на материалите, които не отговарят на техническите изисквания.'
+        
+    },
+}; 
+
+$(function(){ 
+    $('.translate').click(function(){ 
+        var lang = $(this).attr('id'); 
+      $('.lang').each(function(index, element){ 
+          $(this).text(arrLang[lang][$(this ).attr('key')]);
+        
+      });
+    });
+});
+    
+        
+        
+        
+        
+    </script>
     <style>
     .bg-img {
             margin-top:30px;
@@ -38,7 +84,10 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="nav navbar-header">
-                <a href="#"><img src="logo.svg" alt="logo" width="80px"></a>
+                <a href="#"><img src="logo.svg" alt="logo" width="80px"></a> 
+            <button type="button" class="translate"  id='bg '>Button</button>
+<button type="button" class="translate"  id='en' >En</button>
+
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
