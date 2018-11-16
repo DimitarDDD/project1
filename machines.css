@@ -25,7 +25,8 @@ h1 {
  color: inherit;
  margin: .67em 0;
  font-size: 2em;
-box-sizing: border-box;
+box-sizing: border-box; 
+margin-top:40px;
 }
 
 .p { 
