@@ -1,12 +1,4 @@
-   .bg-img {
-            margin-top: 33px;
-            background: url('images/machine-7.jpg');
-            background-size: cover;
-            background-position:center center;
-            background-repeat:   no-repeat; 
-            height:285px;
-        }
-
+  
         .navbar-inverse { 
             font-size:14px;
             background-color: #525050
